@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background-color: pink;
+    background: linear-gradient(black, green);
     display: flex;
     justify-content: center; margin-top: 50px;
     height: 100vh;
@@ -13,13 +13,13 @@ body {
     margin-top: 10px;
 }
 #tc {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .estilo {
     width: 50%;
     height: 100% auto;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     display: flex;
     justify-content: top;
     align-items: center;
@@ -30,8 +30,12 @@ body {
 button {
     margin-left: 10px;
     border-radius: 20px;
-    background-color: pink;
+    background-color: gainsboro;
     border: 2px solid black;
+}
+
+#tc {
+    color: green;
 }
 
 /*rgb(148, 173, 109)
