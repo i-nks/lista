@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(148, 173, 109);
+    display: flex;
+    justify-content: center; margin-top: 50px;
+    height: 100vh;
+}
+
+#btn {
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
+}
+#tc {
+    margin-top: 50px;
+}
+
+.estilo {
+    width: 50%;
+    height: 100% auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh;
+}
+
+button {
+    margin-left: 10px;
+}
